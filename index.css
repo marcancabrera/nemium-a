@@ -28,6 +28,7 @@ h4 {
   margin: 0;
   font-family: var(--font-primary);
   font-weight: 400;
+  color: #424242;
 }
 
 h1 {
@@ -47,16 +48,25 @@ h3 {
 }
 
 p {
-  margin: 0;
+  margin-block: 20px;
   line-height: 24px;
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 16px;
+  color: #424242;
+}
+
+.setup-subtitle {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-position: under;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
+  margin-block-start: 20px;
+  margin-inline: 200px;
 }
 
 aside {
@@ -67,4 +77,22 @@ aside {
 main {
   flex: 70%;
   padding: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .content {
+    margin-inline: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-inline: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin-inline: 50px;
+  }
 }
