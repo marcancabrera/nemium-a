@@ -1,5 +1,6 @@
 :root {
   --font-primary: "Roboto", san-serif;
+  --color-primary: #424242;
 }
 
 body {
@@ -28,7 +29,7 @@ h4 {
   margin: 0;
   font-family: var(--font-primary);
   font-weight: 400;
-  color: #424242;
+  color: var(--color-primary);
 }
 
 h1 {
@@ -53,7 +54,7 @@ p {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 16px;
-  color: #424242;
+  color: var(--color-primary);
 }
 
 .setup-subtitle {
@@ -77,6 +78,28 @@ aside {
 main {
   flex: 70%;
   padding: 20px;
+}
+
+.section-quote {
+  margin-block: 20px;
+  padding-inline-start: 20px;
+  border-inline-start: 4px solid var(--color-primary);
+}
+
+.section-concepts {
+  margin-block-start: 50px;
+}
+
+.section-box-model {
+  margin-block-start: 50px;
+}
+
+.article-item {
+  margin-block-start: 30px;
+}
+
+.box-model-item {
+  margin-block-start: 30px;
 }
 
 @media screen and (max-width: 1440px) {
