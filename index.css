@@ -256,6 +256,11 @@ details ol li a:hover{
   padding-inline-end: 20px;
 }
 
+main p span{
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 /* Form section*/
 
 .section-form {
